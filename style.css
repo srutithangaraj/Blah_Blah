@@ -1,0 +1,93 @@
+.jumbotron{
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.container {
+  height: 340px;
+  width: 100%;
+}
+h2 {
+  text-shadow: 2px 2px white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+#icons{
+  position:relative;
+  bottom: 20%;
+  right: 0%;
+  width:50px;
+  height: 50px;
+}
+
+.col {
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+  background-color: white;
+  border: 0.2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  cursor: pointer;
+}
+
+#img1 {
+  height: 100%;
+  margin-top: 0px;
+  width: 90%;
+  
+}
+
+#img2 {
+  height: 100%;
+  margin-top: 0px;
+  width: 90%;
+  
+}
+
+#img3 {
+  height: 100%;
+  margin-top: 0px;
+  width: 90%;
+ 
+}
+
+#content {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 25px;
+}
+
+@media (max-width: 1200px) {
+  .row {
+    display: block;
+    /* flex-direction: column; */
+    height: 100%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/*.page-footer {
+  position: bottom;
+  left: 0;
+  bottom: 100px;
+  height:5%;
+  background-image: url('https://wallpaper.dog/large/991177.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:#555555;
+  text-align: center;
+  font-size: 20px;
+  font-family: "garamond";
+}*/
